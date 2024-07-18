@@ -71,4 +71,4 @@ int igb_setup_tx_resources(struct igb_ring *tx_ring)
 核心分配传输队列其实是分配了两个数组，`igb_tx_buffer` 由`vmalloc`分配供内核使用，`e1000_adv_tx_desc`由`dma_alloc_coherent`分配供网卡硬件使用。
 
 网卡驱动总结：
-![alt text](../images/01.png)
+https://github.com/wynyibo/study/blob/main/net_card_driver/image.png
